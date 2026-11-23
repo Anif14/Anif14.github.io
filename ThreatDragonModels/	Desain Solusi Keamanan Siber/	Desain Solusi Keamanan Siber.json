@@ -990,9 +990,19 @@
           }
         ],
         "description": "keamanan siber"
+      },
+      {
+        "id": 1,
+        "title": "Desain Keamanan Jaringan",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": ""
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "bagas",
     "threatTop": 0
   }
