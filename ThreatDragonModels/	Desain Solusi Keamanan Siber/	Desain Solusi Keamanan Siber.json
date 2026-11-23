@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-11-23",
+  "summary": {
+    "title": "\tDesain Solusi Keamanan Siber",
+    "owner": "Anif Nur Wahid",
+    "description": "Perancangan keamanan website, jaringan, software, dan hardware",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "bagas",
+    "threatTop": 0
+  }
+}
