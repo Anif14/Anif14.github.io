@@ -21,12 +21,12 @@
         "cells": [
           {
             "position": {
-              "x": 446.25,
-              "y": 260
+              "x": 446.24999999999955,
+              "y": 260.0000000000004
             },
             "size": {
               "width": 300,
-              "height": 440
+              "height": 340
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -39,7 +39,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "3c3a7ee9-f70a-4d52-94d3-511d23f5e25b"
+                "3c3a7ee9-f70a-4d52-94d3-511d23f5e25b",
+                "a49adad2-81bd-44f4-aa5a-7a2a2649c9b6"
               ],
               "containedElements": [
                 "23c1f94b-5098-478e-b288-747eaa2ed0f5",
@@ -185,6 +186,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -268,7 +270,6 @@
               ]
             },
             "id": "23c1f94b-5098-478e-b288-747eaa2ed0f5",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Portal Login",
@@ -369,7 +370,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "25393312-9eff-4189-8442-4b05a58989cb"
+              ]
             },
             "labels": [
               "Verifikasi Kredensial (Hashed)"
@@ -380,9 +383,15 @@
               "y": 370
             },
             "target": {
-              "x": 270,
-              "y": 520
-            }
+              "cell": "44fc92f3-9e6a-4818-8116-214c7e711942",
+              "port": "8f94f837-7721-4d87-83c9-647560d20cae"
+            },
+            "vertices": [
+              {
+                "x": 596,
+                "y": 430
+              }
+            ]
           },
           {
             "position": {
@@ -408,6 +417,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -491,7 +501,6 @@
               ]
             },
             "id": "44fc92f3-9e6a-4818-8116-214c7e711942",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Database Uer",
